@@ -18,7 +18,7 @@ $scoreboard players set #uuid1 PuK_UUID $(1)
 $scoreboard players set #uuid2 PuK_UUID $(2)
 $scoreboard players set #uuid3 PuK_UUID $(3)
 
-data merge storage puk:main {hex:"null",UUID:[I;0,1,2,3]}
+$data merge storage puk:main {hex:"null",UUID:[I;$(0),$(1),$(2),$(3)]}
 data merge storage puk:temp {0a:"0000",0b:"0000",1a:"0000",1b:"0000",2a:"0000",2b:"0000",3a:"0000",3b:"0000"}
 
 #Unterteilung und Konvertierung der Blöcke
